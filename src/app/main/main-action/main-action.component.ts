@@ -6,6 +6,7 @@ import { TransactionService } from '../services/transaction.service';
   selector: 'app-main-action',
   templateUrl: './main-action.component.html',
   styleUrls: ['./main-action.component.scss'],
+  standalone: false,
 })
 export class MainActionComponent {
   transactionSort!: string;

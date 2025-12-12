@@ -11,6 +11,7 @@ import { IAccounts } from '../../models/Accounts';
   selector: 'app-account-info',
   templateUrl: './account-info.component.html',
   styleUrls: ['./account-info.component.scss'],
+  standalone: false,
 })
 export class AccountInfoComponent implements OnInit, OnDestroy {
   account!: IAccounts;

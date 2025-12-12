@@ -2,7 +2,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { ITransaction } from '../main/models/Transactions.model';
 
 @Pipe({
-  name: 'transactionSelect'
+  name: 'transactionSelect',
+  standalone: false,
 })
 export class TransactionSelectPipe implements PipeTransform {
 

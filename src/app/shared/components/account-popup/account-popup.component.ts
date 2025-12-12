@@ -8,6 +8,7 @@ import { AccountService } from 'src/app/services/account.service';
   selector: 'app-account-popup',
   templateUrl: './account-popup.component.html',
   styleUrls: ['./account-popup.component.scss'],
+  standalone: false,
 })
 export class AccountPopupComponent implements OnInit, OnDestroy {
   activeAccount!: IAccounts;

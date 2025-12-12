@@ -11,6 +11,7 @@ import { TransactionService } from '../services/transaction.service';
   selector: 'app-transaction',
   templateUrl: './transaction.component.html',
   styleUrls: ['./transaction.component.scss'],
+  standalone: false,
 })
 export class TransactionComponent implements OnInit, OnDestroy {
   accountSubs!: Subscription;

@@ -5,6 +5,7 @@ import { SidenavService } from 'src/app/shared/services/sidenav.service';
   selector: 'app-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
+  standalone: false,
 })
 export class MainComponent {
   constructor(private sidenavService:SidenavService) {}

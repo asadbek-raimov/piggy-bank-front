@@ -7,6 +7,7 @@ import { TransactionService } from '../services/transaction.service';
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.scss'],
+  standalone: false,
 })
 export class SearchComponent {
   @Output() searchValue = new EventEmitter<string>();

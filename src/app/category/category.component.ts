@@ -6,7 +6,8 @@ import { CategoryService } from '../services/category.service';
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
-  styleUrls: ['./category.component.scss']
+  styleUrls: ['./category.component.scss'],
+  standalone: false,
 })
 export class CategoryComponent implements OnInit,OnDestroy {
   categories!:ICategory[];

@@ -24,6 +24,7 @@ import { map, startWith } from 'rxjs/operators';
   selector: 'app-transaction-create',
   templateUrl: './transaction-create.component.html',
   styleUrls: ['./transaction-create.component.scss'],
+  standalone: false,
 })
 export class TransactionCreateComponent implements OnInit, OnDestroy {
   editMode = false;

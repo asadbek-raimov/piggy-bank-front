@@ -9,6 +9,7 @@ import { AuthService } from './../services/auth.service';
   selector: 'app-auth-form',
   templateUrl: './auth-form.component.html',
   styleUrls: ['./auth-form.component.scss'],
+  standalone: false,
 })
 
 export class AuthFormComponent implements OnInit {

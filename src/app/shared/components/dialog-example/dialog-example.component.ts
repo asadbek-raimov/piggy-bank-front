@@ -9,6 +9,7 @@ import { SidenavService } from '../../services/sidenav.service';
   selector: 'app-dialog-example',
   templateUrl: './dialog-example.component.html',
   styleUrls: ['./dialog-example.component.scss'],
+  standalone: false,
 })
 export class DialogExampleComponent implements OnInit {
   selectedT!: ITransaction;

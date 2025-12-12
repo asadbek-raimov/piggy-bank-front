@@ -9,6 +9,7 @@ import { IAccounts } from '../../models/Accounts';
   selector: 'app-account-create',
   templateUrl: './account-create.component.html',
   styleUrls: ['./account-create.component.scss'],
+  standalone: false,
 })
 export class AccountCreateComponent implements OnInit {
   editMode = false;

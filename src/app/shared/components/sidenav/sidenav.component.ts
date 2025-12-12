@@ -6,6 +6,7 @@ import { SidenavService } from '../../services/sidenav.service';
   selector: 'app-sidenav',
   templateUrl: './sidenav.component.html',
   styleUrls: ['./sidenav.component.scss'],
+  standalone: false,
 })
 export class SidenavComponent implements OnInit, OnDestroy {
   isOpen = false;

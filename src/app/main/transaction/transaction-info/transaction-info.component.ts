@@ -12,6 +12,7 @@ import { TransactionService } from '../../services/transaction.service';
   selector: 'app-transaction-info',
   templateUrl: './transaction-info.component.html',
   styleUrls: ['./transaction-info.component.scss'],
+  standalone: false,
 })
 export class TransactionInfoComponent implements OnInit, OnDestroy {
   transaction!: ITransaction;
